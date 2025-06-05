@@ -1,0 +1,152 @@
+.inventario-fisico {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 24px 18px 32px 18px;
+}
+.inventario-fisico h2 {
+  color: #234;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.fisico-categorias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin: 18px 0 18px 0;
+}
+.categoria-btn {
+  background: #e3f2fd;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+  border-radius: 12px;
+  padding: 18px 28px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: background 0.2s, color 0.2s;
+}
+.categoria-btn.activa, .categoria-btn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+.nuevo-btn {
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 18px;
+  margin-left: 10px;
+}
+.nuevo-btn:hover {
+  background: #2e7d32;
+}
+.fisico-form {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fisico-form input,
+.fisico-form select,
+.fisico-form textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+.fisico-form textarea {
+  resize: vertical;
+}
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.cancelar-btn {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.cancelar-btn:hover {
+  background: #bdbdbd;
+}
+.guardar-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.guardar-btn:hover {
+  background: #0d47a1;
+}
+.fisico-categoria {
+  background: #f1f8ff;
+  border-radius: 8px;
+  padding: 12px 10px 10px 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  margin-top: 18px;
+}
+.fisico-categoria h3 {
+  color: #1976d2;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.fisico-categoria ul {
+  list-style: none;
+  padding: 0;
+}
+.fisico-categoria li {
+  background: #fff;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.98em;
+}
+.fisico-codigos {
+  font-size: 0.92em;
+  color: #1976d2;
+}
+.editar-btn {
+  background: #ffd600;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 0.95em;
+  margin-right: 6px;
+}
+.editar-btn:hover {
+  background: #ffb300;
+}
+.eliminar-btn {
+  background: #e57373;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 0.95em;
+}
+.eliminar-btn:hover {
+  background: #c62828;
+}

@@ -1,0 +1,97 @@
+.calendario-vacunacion {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 24px 18px 32px 18px;
+}
+
+.calendario-vacunacion h2 {
+  color: #234;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.calendario-vacunacion h3 {
+  color: #234;
+  font-size: 1.2em;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.react-calendar {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  margin-bottom: 18px;
+}
+
+.tiene-actividad {
+  background: #b3e5fc !important;
+  border-radius: 50%;
+  color: #234 !important;
+}
+
+.actividades-lista {
+  margin: 18px 0 10px 0;
+}
+
+.actividades-lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.actividades-lista li {
+  background: #f1f8ff;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eliminar-btn {
+  background: #e57373;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 0.95em;
+  margin-left: 10px;
+}
+
+.eliminar-btn:hover {
+  background: #c62828;
+}
+
+.agregar-actividad {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.agregar-actividad input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+.agregar-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.agregar-btn:hover {
+  background: #0d47a1;
+}
