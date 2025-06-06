@@ -5,7 +5,7 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2>Tabla de Contenidos</h2>
+      <h2>BOVINO UJAT </h2>
       <ul>
         <li><Link to="/calendario-vacunacion">Calendario de Vacunación</Link></li>
         <li><Link to="/inventario-bovino">Inventario Bovino</Link></li>
